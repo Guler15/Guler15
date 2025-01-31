@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 250px;
+        }
+
+        form {
+            border: 1px solid rgb(55, 44, 44);
+            padding: 20px;
+            width: 300px;
+            display: inline-block;
+            border-radius: 13px;
+            box-shadow: 0 0 10px;
+            text-align: center;
+        }
+
+        .input-box {
+            margin: 5px 0;
+        }
+
+        .input-box input:not([type="submit"]) {
+            padding: 3px 0;
+            border: 1px solid grey;
+            border-radius: 3px;
+            font-size: 18px;
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: rgb(56, 152, 184);
+            color: white;
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 5px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        label {
+            text-align: left;
+            width: 100%;
+            display: block;
+        }
+    </style>
+
+<body>
+    <form action="/test" method="POST">
+        <div class="input-box">
+            <label>Username</label>
+            <input type="text" name="username" />
+        </div>
+        <div class="input-box">
+            <label>Age</label>
+            <input type="number" name="age" />
+        <div class="input-box">
+            <label>Number</label>
+            <input type="number" name="age" />
+        <div class="input-box">
+            <label>Number</label>
+            <input type="number" name="age" />
+        <div class="input-box">
+            <label>Password</label>
+            <input type="number" name="age" />
+        </div>
+        <div class="input-box">
+            <input type="submit" />
+        </div>
+
+</body>
+</html>

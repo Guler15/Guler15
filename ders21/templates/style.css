@@ -1,0 +1,14 @@
+header{
+    height: 70px;
+    border-bottom: 2px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{ 
+  display: inline-block;
+}
+p{
+  width: 100%;
+  display: flex;
+}
